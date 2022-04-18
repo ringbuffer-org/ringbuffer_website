@@ -1,0 +1,40 @@
+.. title: Spatial Audio: Production & Performance
+.. slug: spatial-audio
+.. date: 2022-04-13
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+
+.. raw:: html
+
+   <h1 align="center">
+   <a href="plugs_and_pis"><img width="400" src="/images/spatial_sources.png" alt="-"></a>
+   </h1>
+
+The following chapters contain the teaching material for the class
+`Spatial Audio: Production and Performance <https://www.ak.tu-berlin.de/menue/tu_studio/classes_at_tu_studio/spatial_audio_production_performance/>`_.
+Topics include history and theory of spatial audio in eletroacoustic music and
+use of spatial audio techniques in SuperCollider, Reaper and other evironments.
+In addition, the technological aspects of Linux audio systems for advanced spatial sound
+systems are intruced.
+
+
+------
+
+
+01 Examples from the History
+============================
+
+  .. post-list::
+     :categories: spatial_audio:history
+     :sort: priority
+
+
+02 Spatial Audio in SuperCollider
+=================================
+
+ .. post-list::
+    :categories: spatial_audio:supercollider
+    :sort: priority
