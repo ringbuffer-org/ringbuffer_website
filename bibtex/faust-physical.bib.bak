@@ -1,0 +1,17 @@
+% Encoding: UTF-8
+@inproceedings{michon2018faust,
+  title={The faust physical modeling library: a modular playground for the digital luthier},
+  author={Michon, Romain and Smith, Julius and Chafe, Chris and Wang, Ge and Wright, Matthew},
+  booktitle={International Faust Conference},
+  year={2018}
+}
+
+@Unpublished{Smith2008making,
+  author = {Smith, Julius},
+  title  = {Making Virtual Electric Guitars and Associated Effects Using Faust},
+  note   = {REALSIMPLE Project},
+  year   = {2007},
+  url    = {https://ccrma.stanford.edu/realsimple/faust_strings/faust_strings.pdf},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

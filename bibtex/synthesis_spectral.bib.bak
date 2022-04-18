@@ -1,0 +1,91 @@
+% Encoding: UTF-8
+
+@article{McAulay:1986,
+	author = "McAulay, R. and Quatieri, T.",
+	journal = "Acoustics, Speech and Signal Processing, IEEE Transactions on",
+	number = "4",
+	pages = "744–754",
+	title = "{Speech analysis/Synthesis based on a sinusoidal representation}",
+	volume = "34",
+	year = "1986"
+}
+
+
+@article{quatieri1986speech,
+	author = "Quatieri, T and McAulay, Rl",
+	journal = "IEEE Transactions on Acoustics, Speech, and Signal Processing",
+	number = "6",
+	pages = "1449–1464",
+	publisher = "IEEE",
+	title = "{Speech transformations based on a sinusoidal representation}",
+	volume = "34",
+	year = "1986"
+}
+
+
+@article{Serra1990spectralmodeling,
+	author = "Serra, Xavier and Smith, Julius",
+	journal = "Computer Music Journal",
+	number = "4",
+	pages = "12–14",
+	publisher = "MIT Press",
+	title = "{Spectral Modeling Synthesis: A Sound Analysis/Synthesis System Based on a Deterministic Plus Stochastic Decomposition }",
+	volume = "14",
+	year = "1990"
+}
+
+@InProceedings{levine1998asines,
+  author    = {Levine, Scott and Smith, Julius},
+  title     = {{A Sines + Transients + Noise Audio Representation for Data Compression and Time/Pitch Scale Modifications}},
+  booktitle = {{Proceedings of the 105th Audio Engineering Society Convention}},
+  year      = {1998},
+  address   = {San Francisco, CA},
+}
+
+
+@InProceedings{Smith2005parshl,
+  author    = {Smith, Julius O. and Serra, Xavier},
+  title     = {{PARSHL: An Analysis/Synthesis Program for Non-Harmonic Sounds Based on a Sinusoidal Representation}},
+  booktitle = {{Proceedings of the International Computer Music Conference (ICMC)}},
+  year      = {2005},
+  address   = {Barcelona, Spain},
+  keywords  = {imported},
+  owner     = {zazi},
+  timestamp = {2010-01-28T22:00:35.000+0100},
+  url       = {http://www.bibsonomy.org/bibtex/2fa00c44d6ff2549f4d0559a105631fd7/zazi},
+}
+
+
+@article{decheveigne2002yin,
+	author = "de Cheveigné, Alain and Kawahara, Hideki",
+	journal = "The Journal of the Acoustical Society of America",
+	keywords = "guitar",
+	number = "4",
+	pages = "1917–1930",
+	posted-at = "2010-10-04 09:51:23",
+	publisher = "ASA",
+	title = "{YIN, a Fundamental Frequency Estimator for Speech and Music}",
+	volume = "111",
+	year = "2002"
+}
+
+
+@phdthesis{Camacho:2007:SSW:1415080,
+	address = "Gainesville, FL, USA",
+	advisor = "Harris, John G.",
+	author = "Camacho, Arturo",
+	school = "University of Florida",
+	title = "{Swipe: A Sawtooth Waveform Inspired Pitch Estimator for Speech and Music}",
+	year = "2007"
+}
+
+@Article{di1998compositional,
+  author    = {Di Scipio, Agostino},
+  title     = {Compositional models in Xenakis's electroacoustic music},
+  journal   = {Perspectives of New Music},
+  year      = {1998},
+  pages     = {201--243},
+  publisher = {JSTOR},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

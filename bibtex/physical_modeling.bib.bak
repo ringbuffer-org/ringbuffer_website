@@ -1,0 +1,87 @@
+% Encoding: UTF-8
+
+@Article{hiller1971synthesizing,
+  author    = {Hiller, Lejaren and Ruiz, Pierre},
+  title     = {Synthesizing musical sounds by solving the wave equation for vibrating objects: Part 1},
+  journal   = {Journal of the Audio Engineering Society},
+  year      = {1971},
+  volume    = {19},
+  number    = {6},
+  pages     = {462--470},
+  publisher = {Audio Engineering Society},
+}
+
+
+@Article{hiller1971synthesizing2,
+  author    = {Hiller, Lejaren and Ruiz, Pierre},
+  title     = {Synthesizing musical sounds by solving the wave equation for vibrating objects: Part 2},
+  journal   = {Journal of the Audio Engineering Society},
+  year      = {1971},
+  volume    = {19},
+  number    = {7},
+  pages     = {542--551},
+  publisher = {Audio Engineering Society},
+}
+
+
+
+@article{smith1992physical,
+	author = "Smith, Julius O",
+	journal = "Computer music journal",
+	number = "4",
+	pages = "74–91",
+	publisher = "JSTOR",
+	title = "{Physical modeling using digital waveguides}",
+	volume = "16",
+	year = "1992"
+}
+
+
+@inproceedings{Karjalainen1993towards,
+	author = "Karjalainen, Matti and Välimäki, Vesa and Jánosy, Zoltán",
+	booktitle = "{Computer Music Association}",
+	pages = "56–63",
+	title = "{Towards High-Quality Sound Synthesis of the Guitar and String Instruments}",
+	year = "1993"
+}
+
+
+@book{valimaki1995discrete,
+	author = "Välimäki, Vesa",
+	publisher = "Helsinki University of Technology",
+	title = "{Discrete-time modeling of acoustic tubes using fractional delay filters}",
+	year = "1995"
+}
+
+
+
+@article{de1995physical,
+	author = "de Bruin, Gijs and van Walstijn, Maarten",
+	journal = "Journal of New Music Research",
+	number = "2",
+	pages = "148–163",
+	publisher = "Taylor \& Francis",
+	title = "{Physical models of wind instruments: A generalized excitation coupled with a modular tube simulation platform*}",
+	volume = "24",
+	year = "1995"
+}
+
+@Article{bilbao2019physical,
+  author    = {Bilbao, Stefan and Desvages, Charlotte and Ducceschi, Michele and Hamilton, Brian and Harrison-Harsley, Reginald and Torin, Alberto and Webb, Craig},
+  title     = {Physical modeling, algorithms, and sound synthesis: The NESS project},
+  journal   = {Computer Music Journal},
+  year      = {2019},
+  volume    = {43},
+  number    = {2-3},
+  pages     = {15--30},
+  publisher = {MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…},
+}
+
+@InProceedings{chafe2004case,
+  author    = {Chafe, Chris},
+  title     = {{Case studies of physical models in music composition}},
+  booktitle = {{Proceedings of the 18th International Congress on Acoustics}},
+  year      = {2004},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

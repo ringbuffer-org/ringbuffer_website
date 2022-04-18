@@ -1,0 +1,55 @@
+% Encoding: UTF-8
+
+@InCollection{vonColer2015aspects,
+  author    = {Brech, Martha and von Coler, Henrik},
+  title     = {Aspects of Space in {Luigi Nono's Prometeo} and the use of the {Halaphon}},
+  booktitle = {Compositions for Audible Space},
+  publisher = {transctript},
+  year      = {2015},
+  editor    = {Brech, Martha and Paland, Ralph},
+  series    = {{Music and Sound Culture}},
+  pages     = {193–204},
+}
+
+@InProceedings{vonColer2014thehalaphon,
+  author    = {Brech, Martha and von Coler, Henrik},
+  title     = {The {Halaphon} and its Use in {Luigi Nono's 'Prometeo'} in {Venice}},
+  booktitle = {{Proceedings of the 9th Conference on Interdisciplinary Musicology ({CIM})}},
+  year      = {2014},
+  location  = {Berlin, Germany},
+}
+
+@InCollection{pysiewicz2017instruments,
+  author    = {Pysiewicz, Andreas and Weinzierl, Stefan},
+  title     = {Instruments for Spatial Sound Control in Real Time Music Performances. A Review},
+  booktitle = {Musical Instruments in the 21st Century},
+  publisher = {Springer},
+  year      = {2017},
+  pages     = {273--296},
+}
+
+@Book{haller1995dasexperimentalstudio1,
+  title     = {{Das Experimentalstudio der Heinrich-Strobel-Stiftung des Südwestfunks Freiburg 1971-1989: die Erforschung der elektronischen Klangumformung und ihre Geschichte, Teil 1}},
+  publisher = {Nomos},
+  year      = {1995},
+  author    = {Haller, Hans Peter},
+  address   = {Baden-Baden},
+}
+
+@Book{haller1995dasexperimentalstudio2,
+  title     = {{Das Experimentalstudio der Heinrich-Strobel-Stiftung des Südwestfunks Freiburg 1971-1989: die Erforschung der elektronischen Klangumformung und ihre Geschichte, Teil 2}},
+  publisher = {Nomos},
+  year      = {1995},
+  author    = {Haller, Hans Peter},
+  address   = {Baden-Baden},
+}
+
+@Unpublished{fielder2016ahistory,
+  author   = {Fielder, Jonathan},
+  title    = {A History of the Development of Multichannel Speaker Arrays for the Presentation and Diffusion of Acousmatic Music},
+  year     = {2016},
+  location = {Austin, USA},
+  url      = {https://www.jonfielder.com/writing.html},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
