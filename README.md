@@ -3,6 +3,8 @@ RINGBUFFER.org is a place for teaching materials for different classes dealing w
 
 # Content
 
+The different topics are organized in independent repositories:
+
 - https://github.com/anwaldt/ringbuffer
 - https://github.com/anwaldt/computer-music-basics
 - https://github.com/anwaldt/sound_synthesis_introduction
@@ -15,9 +17,9 @@ RINGBUFFER.org is a place for teaching materials for different classes dealing w
 # Building the Site
 
 The static website is built with `Nikola <https://getnikola.com/>`_, using the bootblog4 theme.
+All repositories need to be located in the same directory.
 
 
+## Install Additional Plugins
 
-# install:
-
-nikola plugin -i publication_list
+    $ nikola plugin -i publication_list
