@@ -61,13 +61,14 @@ POSTS = (
         ("posts/*.txt", "", "post.tmpl"),
         ("posts/*.html", "", "post.tmpl"),
         ("posts/*.ipynb", "", "post.tmpl"),
-        
+
         (ROOT_PATH+"Sound_Synthesis_Introduction/Website/posts/*.rst", "sound_synthesis_introduction", "post.tmpl"),
         (ROOT_PATH+"Network_Systems_for_Music_Interaction/website/posts/*.rst", "network_systems", "post.tmpl"),
         (ROOT_PATH+"Computer_Music_Basics/website/posts/*.rst", "computer_music_basics", "post.tmpl"),
         (ROOT_PATH+"Sound_Synthesis_in_Faust/website/posts/*.rst", "faust", "post.tmpl"),
         (ROOT_PATH+"sound_synthesis_cpp/website/posts/*.rst", "cpp", "post.tmpl"),
-        (ROOT_PATH+"Spatial_Audio/website/posts/*.rst", "spatial_audio", "post.tmpl")
+        (ROOT_PATH+"Spatial_Audio/website/posts/*.rst", "spatial_audio", "post.tmpl"),
+        (ROOT_PATH+"Misc_Tools/website/posts/*.rst", "Misc_Tools", "post.tmpl")
  )
 
 
@@ -108,10 +109,11 @@ NAVIGATION_LINKS = {
           ("/teaching/computer-music-basics", "Computer Music Basics"),
           ("/teaching/sound-synthesis-introduction", "Sound Synthesis Introduction"),
           ("/teaching/spatial-audio", "Spatial Audio"),
-          ("/teaching/network-systems-for-music-interaction", "Network Systems for Music Interaction"),
+         # ("/teaching/network-systems-for-music-interaction", "Network Systems for Music Interaction"),
           ("/teaching/building-instruments-in-faust", "Faust"),
           ("/teaching/sound-synthesis-cpp", "C++"),
-          #          
+          ("/teaching/misc-tools", "Misc Tools"),
+          #
           # ("/contact", "Contact"),
     ),
 }
@@ -120,11 +122,12 @@ INDEX_PATH = "news"
 
 IMAGE_FOLDERS = {
                  'images': 'images',
-                 '../../Computer_Music_Basics/website/graphics/' : 'images/basics',
+                 '../Computer_Music_Basics/website/graphics/' : 'images/basics',
                  '../Sound_Synthesis_Introduction/Website/images/Sound_Synthesis' : 'images/Sound_Synthesis/',
                  '../Network_Systems_for_Music_Interaction/website/images' : 'images/nsmi',
                  '../Sound_Synthesis_in_Faust/website/graphics' : 'images/faust',
-                 '../Spatial_Audio/website/images' : 'images/spatial'                 
+                 '../sound_synthesis_cpp/website/graphics' : 'images/cpp',
+                 '../Spatial_Audio/website/images' : 'images/spatial'
                  }
 
 IMAGE_THUMBNAIL_SIZE = 200
@@ -135,6 +138,9 @@ FILES_FOLDERS = {
                 'files': 'files',
                 ROOT_PATH+'Computer_Music_Basics/webaudio': 'files/webaudio',
                 ROOT_PATH+'Sound_Synthesis_in_Faust/faust*.dsp': 'files/faust',
+                #
+                # BIB stuff:
+                ROOT_PATH+'/Spatial_Audio/bibtex': 'bibtex/'
                 #'/media/anwaldt/ANWALDT_2TB/WEBPAGES/hvc_website/hvc/audio': 'audio'
                 }
 

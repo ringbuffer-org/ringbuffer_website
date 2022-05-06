@@ -27,14 +27,33 @@ systems are intruced.
 01 Examples from the History
 ============================
 
+.. post-list::
+   :categories: spatial_audio:history
+   :sort: priority
+
+
+02 Tools and Practices
+======================
+
+*Contents from CMB:*
+
   .. post-list::
-     :categories: spatial_audio:history
-     :sort: priority
-
-
-02 Spatial Audio in SuperCollider
-=================================
-
- .. post-list::
-    :categories: spatial_audio:supercollider
+    :categories: basics:supercollider
     :sort: priority
+
+
+
+03 Ambisonics Intro
+===================
+
+  .. post-list::
+    :categories: spatial_audio:ambisonics
+    :sort: priority
+
+
+04 Binaural with SC-HOA
+=======================
+
+  .. post-list::
+     :categories: spatial_audio:supercollider
+     :sort: priority

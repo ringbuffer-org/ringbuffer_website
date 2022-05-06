@@ -84,26 +84,3 @@ Contents
   .. post-list::
      :categories: basics:webaudio
      :sort: priority
-
-8 More Languages and Environments
----------------------------------
-
-  .. post-list::
-    :categories: basics:languages
-    :sort: priority
-
-
-Upcoming Topics
----------------
-
-- Effects
-- Spatialization
-
-
-
-
-
-..
-  .. post-list::
-     :categories: basics:sonification
-     :sort: priority

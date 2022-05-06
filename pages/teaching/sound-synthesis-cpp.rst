@@ -47,17 +47,28 @@ Contents
     :sort: priority
 
 
-4 Physical Modeling
+4 Processed Recording
+---------------------
+
+
+
+5 Subtractive Synthesis
+-----------------------
+
+
+6 Spectral Modeling
+-------------------
+
+  .. post-list::
+    :categories: cpp:additive-spectral
+    :sort: priority
+
+7 Distortion Synthesis
+----------------------
+
+8 Physical Modeling
 -------------------
 
   .. post-list::
     :categories: cpp:physical
     :sort: priority
-
-Upcoming Topics
----------------
-
-- Subtractive Synthesis
-- Additive Synthesis
-- Processed Recording
-- Distortion Synthesis
