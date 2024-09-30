@@ -12,7 +12,7 @@
 .. raw:: html
 
    <h1 align="center">
-   <a href="plugs_and_pis"><img width="400" src="/images/plugs_and_pis.JPG" alt="-"></a>
+   <img width="400" src="/images/plugs_and_pis.JPG" alt="-">
    </h1>
 
 
@@ -47,44 +47,6 @@ Sessions
 
 
 
-04 SuperCollider I
-==================
-
-    See the contents in the `SC section of the CMB Class </teaching/computer-music-basics/>`_:
-
-    - Getting Started with SuperCollider
-    - First Sounds with SuperCollider
-    - SynthDefs
-    - Using Buses in SuperCollider
-    - Combining Nodes in SuperCollider
-    - Working with Groups
-
-
-
-05 SuperCollider II
-===================
-
-    See the contents in the SC `section of the CMB Class </teaching/computer-music-basics/>`_:
-
-    - Controlling SC with the Mouse
-    - Receiving OSC in SuperCollider
-      - and sending from PD
-    - Sending OSC from SuperCollider
-    - Using Arrays in SuperCollider
-    - Playing Samples in SuperCollider
-    - Making a Kick in SuperCollider
-
-
-06 Pure Data I
-==============
-
-  Some contents belong to the PD section of the `CMB Class </teaching/computer-music-basics/>`_:
-
-  - Getting Started with Puredata
-  - Control Rate and Audio Rate
-  - Using OSC in Pure Data
-  - Patches and Subpatches in Pure Data
-  - Pure Data: Send-Receive & Throw-Catch
 
 
 
@@ -101,28 +63,3 @@ Sessions
  .. post-list::
     :categories: _nsmi:server-config
     :sort: priority
-
-
-
-08 Spatialization
-=================
-
-  .. post-list::
-     :categories: _nsmi:spatial
-     :sort: priority
-
-
-Upcoming Topics
-===============
-
-
-  - Python
-      - GUI for remote control
-      - websockets
-
-  - streaming a concert with JackTrip and OBS
-
-  - history and related approaches
-      - the HUB
-
-  - compositions for network performances

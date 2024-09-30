@@ -14,7 +14,7 @@
 .. raw:: html
 
    <h1 align="center">
-   <a href="plugs_and_pis"><img width="400" src="/images/spree_system.JPG" alt="-"></a>
+   <img width="400" src="/images/spree_system.JPG" alt="-">
    </h1>
 
 

@@ -12,7 +12,7 @@
 .. raw:: html
 
    <h1 align="center">
-   <a href="plugs_and_pis"><img width="400" src="/images/faust.png" alt="-"></a>
+   <img width="400" src="/images/faust.png" alt="-">
    </h1>
 
 This is a site for online materials accompanying the seminar *Sound Synthesis: Building Instruments with Faust*

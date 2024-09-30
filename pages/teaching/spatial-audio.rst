@@ -10,7 +10,7 @@
 .. raw:: html
 
    <h1 align="center">
-   <a href="plugs_and_pis"><img width="400" src="/images/spatial_sources.png" alt="-"></a>
+   <img width="400" src="/images/spatial_sources.png" alt="-">
    </h1>
 
 The following chapters contain the teaching material for the class
@@ -18,7 +18,7 @@ The following chapters contain the teaching material for the class
 Topics include history and theory of spatial audio in eletroacoustic music and
 use of spatial audio techniques in SuperCollider, Reaper and other evironments.
 In addition, the technological aspects of Linux audio systems for advanced spatial sound
-systems are intruced.
+systems are introduced.
 
 
 ------
@@ -27,9 +27,9 @@ systems are intruced.
 01 Examples from the History
 ============================
 
-.. post-list::
-   :categories: spatial_audio:history
-   :sort: priority
+  .. post-list::
+     :categories: spatial_audio:history
+     :sort: priority
 
 
 02 Tools and Practices
@@ -57,3 +57,24 @@ systems are intruced.
   .. post-list::
      :categories: spatial_audio:supercollider
      :sort: priority
+
+
+
+05 Ambisonics & Binaural with the IEM Plugins
+=============================================
+
+  .. post-list::
+     :categories: spatial_audio:iem-reaper
+     :sort: priority
+
+
+
+06 Spatial Sound Synthesis
+==========================
+
+  .. post-list::
+     :categories: spatial_audio:synthesis
+     :sort: priority
+
+
+

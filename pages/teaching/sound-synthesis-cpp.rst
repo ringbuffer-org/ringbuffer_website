@@ -10,7 +10,7 @@
 .. raw:: html
 
    <h1 align="center">
-   <a href="plugs_and_pis"><img width="400" src="/images/curves.jpg" alt="-"></a>
+   <img width="400" src="/images/curves.jpg" alt="-">
    </h1>
 
 The class `Sound Synthesis in C++ <https://www.ak.tu-berlin.de/menue/lehre/vergangene_semester/sommersemester_2019/sound_synthesis/>`_ is based on Linux audio systems for developing and running C++ based sound synthesis projects.

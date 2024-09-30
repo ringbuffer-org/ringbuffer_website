@@ -1,4 +1,4 @@
-ROOT_PATH = "/media/anwaldt/ANWALDT_2TB/WORK/TEACHING/Online/"
+ROOT_PATH = "/media/anwaldt/ANWALDT_DATA/WORK/TEACHING/Online/"
 
 # DEBUG?
 NIKOLA_DEBUG=0
@@ -63,12 +63,11 @@ POSTS = (
         ("posts/*.ipynb", "", "post.tmpl"),
 
         (ROOT_PATH+"Sound_Synthesis_Introduction/Website/posts/*.rst", "sound_synthesis_introduction", "post.tmpl"),
-        (ROOT_PATH+"Network_Systems_for_Music_Interaction/website/posts/*.rst", "network_systems", "post.tmpl"),
         (ROOT_PATH+"Computer_Music_Basics/website/posts/*.rst", "computer_music_basics", "post.tmpl"),
         (ROOT_PATH+"Sound_Synthesis_in_Faust/website/posts/*.rst", "faust", "post.tmpl"),
         (ROOT_PATH+"sound_synthesis_cpp/website/posts/*.rst", "cpp", "post.tmpl"),
         (ROOT_PATH+"Spatial_Audio/website/posts/*.rst", "spatial_audio", "post.tmpl"),
-        (ROOT_PATH+"Misc_Tools/website/posts/*.rst", "Misc_Tools", "post.tmpl")
+        (ROOT_PATH+"Music_Interaction_Systems/website/posts/*.rst", "music_interaction_systems", "post.tmpl")
  )
 
 
@@ -110,9 +109,9 @@ NAVIGATION_LINKS = {
           ("/teaching/sound-synthesis-introduction", "Sound Synthesis Introduction"),
           ("/teaching/spatial-audio", "Spatial Audio"),
          # ("/teaching/network-systems-for-music-interaction", "Network Systems for Music Interaction"),
+          ("/teaching/music_interaction_systems", "Music Interaction Systems"),
           ("/teaching/building-instruments-in-faust", "Faust"),
           ("/teaching/sound-synthesis-cpp", "C++"),
-          ("/teaching/misc-tools", "Misc Tools"),
           #
           # ("/contact", "Contact"),
     ),
@@ -122,26 +121,33 @@ INDEX_PATH = "news"
 
 IMAGE_FOLDERS = {
                  'images': 'images',
-                 '../Computer_Music_Basics/website/graphics/' : 'images/basics',
+                 '../Computer_Music_Basics/website/graphics' : 'images/basics',
                  '../Sound_Synthesis_Introduction/Website/images/Sound_Synthesis' : 'images/Sound_Synthesis/',
-                 '../Network_Systems_for_Music_Interaction/website/images' : 'images/nsmi',
+                 '../Music_Interaction_Systems/website/images' : 'images/mis',
                  '../Sound_Synthesis_in_Faust/website/graphics' : 'images/faust',
                  '../sound_synthesis_cpp/website/graphics' : 'images/cpp',
                  '../Spatial_Audio/website/images' : 'images/spatial'
                  }
 
-IMAGE_THUMBNAIL_SIZE = 200
+IMAGE_THUMBNAIL_SIZE = 400
 
 SHOW_SOURCELINK = False
 
 FILES_FOLDERS = {
                 'files': 'files',
                 ROOT_PATH+'Computer_Music_Basics/webaudio': 'files/webaudio',
+                ROOT_PATH+'Sound_Synthesis_in_Faust/webaudio': 'files/webaudio/faust',
                 ROOT_PATH+'Sound_Synthesis_in_Faust/faust*.dsp': 'files/faust',
                 #
                 # BIB stuff:
-                ROOT_PATH+'/Spatial_Audio/bibtex': 'bibtex/'
+                ROOT_PATH+'/Spatial_Audio/bibtex': 'bibtex/',
                 #'/media/anwaldt/ANWALDT_2TB/WEBPAGES/hvc_website/hvc/audio': 'audio'
+                #
+                # audio
+                ROOT_PATH+'Sound_Synthesis_Introduction/Audio/': 'audio/sound-synthesis/spectral',
+                # video
+                ROOT_PATH+'Computer_Music_Basics/website/videos/': 'files/videos/cmb',
+
                 }
 
 LISTINGS_FOLDERS = {
@@ -185,10 +191,18 @@ CONTENT_FOOTER = '''
 <center>
 <hr>
 <br>
-Contents &copy; Henrik von Coler 2022 - <a href="/contact"> Contact</a>
 </center>
 <br>
 '''
+
+#CONTENT_FOOTER = '''
+#<center>
+#<hr>
+#<br>
+#Contents &copy; Henrik von Coler 2023 - <a href="/contact"> Contact</a>
+#</center>
+#<br>
+#'''
 
 
 # LATEX STUFF

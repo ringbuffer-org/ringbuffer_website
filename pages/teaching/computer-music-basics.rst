@@ -10,7 +10,7 @@
 .. raw:: html
 
    <h1 align="center">
-   <a href="discount"><img width="400" src="/images/field-notes-DICOUNT.jpg" alt="-"></a>
+   <img width="400" src="/images/field-notes-DICOUNT.jpg" alt="-">
    </h1>
 
 This site features selected topics on the theory, tools and techniques in the field of computer music. It is intended as a point of entry for different classes and provides a general overview. The contents aim mainly at experimental and electroacoustic music.
@@ -78,7 +78,22 @@ Contents
      :sort: priority
 
 
-7 WebAudio
+6+ Max for Live
+---------------
+
+   .. post-list::
+      :categories: basics:max4live
+      :sort: priority
+
+7 Physical Computing
+--------------------
+
+   .. post-list::
+      :categories: basics:interfaces
+      :sort: priority
+
+
+8 WebAudio
 ----------
 
   .. post-list::

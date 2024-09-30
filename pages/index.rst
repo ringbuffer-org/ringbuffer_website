@@ -18,12 +18,16 @@ It is also a reference guide for specific techniques and tools.
 While the main focus is on experimental and electroacoustic music,
 certain aspects of popular music are covered as well.
 
+Contents include the history of electronic music, fundamentals of signal processing for music applications,
+algorithms for sound synthesis, basics of different audio programming environments and Linux audio system management.
+
 -----
 
-Contents include the history of electronic and electroacoustic music,
-fundamentals of signal processing for music applications,
-algorithms for sound synthesis, basics of different audio programming environments and
-Linux audio system management.
+Download
+========
+
+Follow this link for additional files: `Download Section <http://ringbuffer.org/download/>`_
+
 
 ------
 
@@ -39,24 +43,3 @@ Most examples and teaching units are based on free and open-source software - su
   :width: 15%
 .. image:: /images/logos/jackd.png
    :width: 25%
-
------
-
-Repositories
-============
-
-*The included content is organized in public software repositories.
-Additional authors are encouraged to contribute by means of adding content to these repositories:*
-
-
-============================= ======================================================
-Contents                      Repository
-============================= ======================================================
-Root (this website)           https://github.com/anwaldt/ringbuffer
-Computer Music Basics         https://github.com/anwaldt/computer-music-basics
-Sound Synthesis Introduction  https://github.com/anwaldt/sound_synthesis_introduction
-Spatial Audio                 https://github.com/anwaldt/Spatial_Audio
-Faust                         https://github.com/anwaldt/sound_synthesis_faust
-Sound Synthesis in C++        https://github.com/anwaldt/sound_synthesis_cpp
-Misc Tools                    https://github.com/anwaldt/Misc_Tools
-============================= ======================================================
