@@ -62,6 +62,7 @@ POSTS = (
         ("posts/*.html", "", "post.tmpl"),
         ("posts/*.ipynb", "", "post.tmpl"),
 
+        (ROOT_PATH+"dsp/website/posts/*.rst", "dsp", "post.tmpl"),
         (ROOT_PATH+"Sound_Synthesis_Introduction/Website/posts/*.rst", "sound_synthesis_introduction", "post.tmpl"),
         (ROOT_PATH+"Computer_Music_Basics/website/posts/*.rst", "computer_music_basics", "post.tmpl"),
         (ROOT_PATH+"Sound_Synthesis_in_Faust/website/posts/*.rst", "faust", "post.tmpl"),
@@ -106,9 +107,9 @@ NAVIGATION_LINKS = {
          ##
          #
           ("/teaching/computer-music-basics", "Computer Music Basics"),
+          ("/teaching/dsp", "DSP"),
           ("/teaching/sound-synthesis-introduction", "Sound Synthesis Introduction"),
           ("/teaching/spatial-audio", "Spatial Audio"),
-         # ("/teaching/network-systems-for-music-interaction", "Network Systems for Music Interaction"),
           ("/teaching/music_interaction_systems", "Music Interaction Systems"),
           ("/teaching/building-instruments-in-faust", "Faust"),
           ("/teaching/sound-synthesis-cpp", "C++"),
@@ -122,6 +123,7 @@ INDEX_PATH = "news"
 IMAGE_FOLDERS = {
                  'images': 'images',
                  '../Computer_Music_Basics/website/graphics' : 'images/basics',
+                 '../dsp/website/graphics' : 'images/dsp',
                  '../Sound_Synthesis_Introduction/Website/images/Sound_Synthesis' : 'images/Sound_Synthesis/',
                  '../Music_Interaction_Systems/website/images' : 'images/mis',
                  '../Sound_Synthesis_in_Faust/website/graphics' : 'images/faust',

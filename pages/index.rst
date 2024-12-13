@@ -12,14 +12,8 @@
 About
 =====
 
-*RINGBUFFER.org* is a place for teaching materials for different
-classes dealing with electronic music and computer music.
-It is also a reference guide for specific techniques and tools.
-While the main focus is on experimental and electroacoustic music,
-certain aspects of popular music are covered as well.
+*RINGBUFFER.org* is a place for teaching materials dealing with electronic/computer music and music technology.
 
-Contents include the history of electronic music, fundamentals of signal processing for music applications,
-algorithms for sound synthesis, basics of different audio programming environments and Linux audio system management.
 
 -----
 
