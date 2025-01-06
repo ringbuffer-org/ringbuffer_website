@@ -48,4 +48,24 @@ File ownership might need to be changed.
     $ jupyter notebook ../../
 
 
-## Install Matplotlib
+## Install Packages
+
+
+- matplotlib
+- numpy
+- scipy
+- control
+- schemdraw
+- soundfile
+ 
+
+
+## Convert notebooks
+
+
+
+- run convert.sh
+
+
+
+    jupyter nbconvert --log-level WARN --to html *.ipynb  --no-input
