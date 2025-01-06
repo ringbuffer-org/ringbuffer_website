@@ -5,13 +5,12 @@ RINGBUFFER.org is a place for teaching materials for different classes dealing w
 
 The different topics are organized in independent repositories:
 
-- https://github.com/ringbuffer-org/dsp
-- https://github.com/ringbuffer-org/computer_music_basics
-- https://github.com/ringbuffer-org/sound_synthesis_introduction
-- https://github.com/ringbuffer-org/spatial_audio
-- https://github.com/ringbuffer-org/sound_synthesis_faust
-- https://github.com/ringbuffer-org/sound_synthesis_cpp
-- https://github.com/ringbuffer-org/misc_tools
+- https://github.com/ringbuffer-org/dsp  
+- https://github.com/ringbuffer-org/computer_music_basics  
+- https://github.com/ringbuffer-org/sound_synthesis_introduction 
+- https://github.com/ringbuffer-org/spatial_audio 
+- https://github.com/ringbuffer-org/sound_synthesis_faust  
+- https://github.com/ringbuffer-org/sound_synthesis_cpp 
 
 
 # Building the Site

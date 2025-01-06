@@ -1,4 +1,4 @@
-ROOT_PATH = "/media/anwaldt/ANWALDT_DATA/WORK/TEACHING/Online/"
+ROOT_PATH = "SECTIONS/"
 
 # DEBUG?
 NIKOLA_DEBUG=0
@@ -31,7 +31,6 @@ BLOG_DESCRIPTION = "RingBuffer"  # (translatable)
 
 
 DEFAULT_LANG = "en"
-
 
 
 THEME_CONFIG = {

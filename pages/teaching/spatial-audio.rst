@@ -32,18 +32,7 @@ systems are introduced.
      :sort: priority
 
 
-02 Tools and Practices
-======================
-
-*Contents from CMB:*
-
-  .. post-list::
-    :categories: basics:supercollider
-    :sort: priority
-
-
-
-03 Ambisonics Intro
+02 Ambisonics Intro
 ===================
 
   .. post-list::
@@ -51,7 +40,7 @@ systems are introduced.
     :sort: priority
 
 
-04 Binaural with SC-HOA
+03 Binaural with SC-HOA
 =======================
 
   .. post-list::
@@ -59,8 +48,7 @@ systems are introduced.
      :sort: priority
 
 
-
-05 Ambisonics & Binaural with the IEM Plugins
+04 Ambisonics & Binaural with the IEM Plugins
 =============================================
 
   .. post-list::
@@ -68,8 +56,7 @@ systems are introduced.
      :sort: priority
 
 
-
-06 Spatial Sound Synthesis
+05 Spatial Sound Synthesis
 ==========================
 
   .. post-list::
