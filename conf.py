@@ -1,4 +1,4 @@
-ROOT_PATH = "SECTIONS/"
+ROOT_PATH = "/media/anwaldt/ANWALDT_DATA/WORK/TEACHING/Online/"
 
 # DEBUG?
 NIKOLA_DEBUG=0
@@ -61,13 +61,13 @@ POSTS = (
         ("posts/*.html", "", "post.tmpl"),
         ("posts/*.ipynb", "", "post.tmpl"),
 
-        (ROOT_PATH+"dsp/website/posts/*.rst", "dsp", "post.tmpl"),
-        (ROOT_PATH+"Sound_Synthesis_Introduction/Website/posts/*.rst", "sound_synthesis_introduction", "post.tmpl"),
-        (ROOT_PATH+"Computer_Music_Basics/website/posts/*.rst", "computer_music_basics", "post.tmpl"),
-        (ROOT_PATH+"Sound_Synthesis_in_Faust/website/posts/*.rst", "faust", "post.tmpl"),
-        (ROOT_PATH+"sound_synthesis_cpp/website/posts/*.rst", "cpp", "post.tmpl"),
-        (ROOT_PATH+"Spatial_Audio/website/posts/*.rst", "spatial_audio", "post.tmpl"),
-        (ROOT_PATH+"Music_Interaction_Systems/website/posts/*.rst", "music_interaction_systems", "post.tmpl")
+        (ROOT_PATH+"dsp/posts/*.rst", "dsp", "post.tmpl"),
+        (ROOT_PATH+"Sound_Synthesis_Introduction/posts/*.rst", "sound_synthesis_introduction", "post.tmpl"),
+        (ROOT_PATH+"Computer_Music_Basics/posts/*.rst", "computer_music_basics", "post.tmpl"),
+        (ROOT_PATH+"Sound_Synthesis_in_Faust/posts/*.rst", "faust", "post.tmpl"),
+        (ROOT_PATH+"sound_synthesis_cpp/posts/*.rst", "cpp", "post.tmpl"),
+        (ROOT_PATH+"Spatial_Audio/posts/*.rst", "spatial_audio", "post.tmpl"),
+        (ROOT_PATH+"Music_Interaction_Systems/posts/*.rst", "music_interaction_systems", "post.tmpl")
  )
 
 
@@ -89,10 +89,10 @@ PAGES = (
 COMMENT_SYSTEM = {}
 
 # And to avoid a conflict because blogs try to generate /index.html
-#INDEX_PATH = "blog"
+# INDEX_PATH = "blog"
 
 # Or you can disable blog indexes altogether:
-# DISABLE_INDEXES = True
+DISABLE_INDEXES = True
 
 #THEME="cadair"
 THEME="bootblog4"
@@ -118,16 +118,17 @@ NAVIGATION_LINKS = {
 }
 
 INDEX_PATH = "news"
+ 
 
 IMAGE_FOLDERS = {
                  'images': 'images',
-                 '../Computer_Music_Basics/website/graphics' : 'images/basics',
-                 '../dsp/website/graphics' : 'images/dsp',
-                 '../Sound_Synthesis_Introduction/Website/images/Sound_Synthesis' : 'images/Sound_Synthesis/',
-                 '../Music_Interaction_Systems/website/images' : 'images/mis',
-                 '../Sound_Synthesis_in_Faust/website/graphics' : 'images/faust',
-                 '../sound_synthesis_cpp/website/graphics' : 'images/cpp',
-                 '../Spatial_Audio/website/images' : 'images/spatial'
+                 '../Computer_Music_Basics/graphics' : 'images/basics',
+                 '../dsp/graphics' : 'images/dsp',
+                 '../Sound_Synthesis_Introduction/images' : 'images/Sound_Synthesis/',
+                 '../Music_Interaction_Systems/images' : 'images/mis',
+                 '../Sound_Synthesis_in_Faust/graphics' : 'images/faust',
+                 '../sound_synthesis_cpp/graphics' : 'images/cpp',
+                 '../Spatial_Audio/images' : 'images/spatial'
                  }
 
 IMAGE_THUMBNAIL_SIZE = 400
@@ -140,14 +141,18 @@ FILES_FOLDERS = {
                 ROOT_PATH+'Sound_Synthesis_in_Faust/webaudio': 'files/webaudio/faust',
                 ROOT_PATH+'Sound_Synthesis_in_Faust/faust*.dsp': 'files/faust',
                 #
+                # HTML from jupyter (did copy but was not )
+                # ROOT_PATH+'dsp/jupyter': 'jupyter_html/dsp',
+                # ROOT_PATH+'Computer_Music_Basics/jupyter': 'jupyter_html/cmb',
+                # ROOT_PATH+'Sound_Synthesis_Introduction/jupyter': 'jupyter_html/ssi',
+                #
                 # BIB stuff:
                 ROOT_PATH+'/Spatial_Audio/bibtex': 'bibtex/',
-                #'/media/anwaldt/ANWALDT_2TB/WEBPAGES/hvc_website/hvc/audio': 'audio'
                 #
                 # audio
                 ROOT_PATH+'Sound_Synthesis_Introduction/Audio/': 'audio/sound-synthesis/spectral',
                 # video
-                ROOT_PATH+'Computer_Music_Basics/website/videos/': 'files/videos/cmb',
+                ROOT_PATH+'Computer_Music_Basics/videos/': 'files/videos/cmb',
 
                 }
 
@@ -159,7 +164,7 @@ LISTINGS_FOLDERS = {
 
 MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 
-## mathjax needs to be configured for handling the $ $ noatation from the nbconvertt to html
+## mathjax needs to be configured for handling the $ $ notation from the nbconvert to html
 #MATHJAX_CONFIG = True
 MATHJAX_CONFIG = """
 <script type="text/x-mathjax-config">

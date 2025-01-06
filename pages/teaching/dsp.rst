@@ -7,25 +7,30 @@
 .. description:
 .. type: text
 
+.. raw:: html
+
+   <h1 align="center">
+   <img width="400" src="/images/subtractive_flow.png" alt="-">
+   </h1>
 
 
+The DSP section of `ringbuffer.org` features an introduction to digital signal processing for sound analysis, processing and synthesis.
 
-The DSP section of `ringbuffer.org` features an introduction to 
-digital signal processing for sound analysis, processing and synthesis.
 
-Content will be published in 2025.
-
-.. -----
+-----
  
-.. Contents
-.. --------
+Contents
+--------
 
-.. Introduction
-.. ============
+New content will be published weekly in 2025.
 
-..   .. post-list::
-..      :categories: dsp:intro
-..      :sort: priority
+
+Introduction
+============
+
+  .. post-list::
+     :categories: dsp:intro
+     :sort: priority
 
 
 .. .. Fourier Transform
