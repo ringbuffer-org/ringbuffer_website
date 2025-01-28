@@ -105,13 +105,13 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
          ##
          #
-          ("/teaching/computer-music-basics", "Computer Music Basics"),
-          ("/teaching/dsp", "DSP"),
-          ("/teaching/sound-synthesis-introduction", "Sound Synthesis Introduction"),
-          ("/teaching/spatial-audio", "Spatial Audio"),
-          ("/teaching/music_interaction_systems", "Music Interaction Systems"),
-          ("/teaching/building-instruments-in-faust", "Faust"),
-          ("/teaching/sound-synthesis-cpp", "C++"),
+          ("/computer-music-basics", "Computer Music Basics"),
+          ("/dsp", "DSP"),
+          ("/sound-synthesis-introduction", "Sound Synthesis Introduction"),
+          ("/spatial-audio", "Spatial Audio"),
+          ("/music_interaction_systems", "Music Interaction Systems"),
+          ("/building-instruments-in-faust", "Faust"),
+          ("/sound-synthesis-cpp", "C++"),
           #
           # ("/contact", "Contact"),
     ),
@@ -151,9 +151,9 @@ FILES_FOLDERS = {
                 #
                 # audio
                 ROOT_PATH+'Sound_Synthesis_Introduction/Audio/': 'audio/sound-synthesis/spectral',
+                ROOT_PATH+'dsp/audio': 'files/dsp/audio',
                 # video
                 ROOT_PATH+'Computer_Music_Basics/videos/': 'files/videos/cmb',
-
                 }
 
 LISTINGS_FOLDERS = {

@@ -67,4 +67,9 @@ File ownership might need to be changed.
 
 
 
-    jupyter nbconvert --log-level WARN --to html *.ipynb  --no-input
+
+## Issues
+
+Hiding code does not work for those sections
+
+    HTML("""
