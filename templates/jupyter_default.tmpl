@@ -1,0 +1,67 @@
+## -*- coding: utf-8 -*-
+<%namespace name="helper" file="post_helper.tmpl"/>
+<%namespace name="pheader" file="post_header.tmpl"/>
+<%namespace name="comments" file="comments_helper.tmpl"/>
+<%inherit file="post.tmpl"/>
+
+<%block name="extra_head">
+    ${parent.extra_head()}
+
+    ## Get the Gentium Basic font from Google
+    <link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+    <style>
+
+        ## Titles in bold, centered, very black Gentium
+        h1, h2, h3, h4 {
+            text-align: center;
+            width: 100%;
+            font-size: 120%;
+            font-weight: 200;
+        }
+
+         ## Images in figures are as large as they can be
+        ## respecting aspect ratio
+        img {
+         padding:inherit;
+        margin:auto;
+        text-align:center;
+        display: block;
+        }
+
+div.jp-RenderedSVG.jp-OutputArea-output
+{
+         padding:inherit;
+        margin:auto;
+        text-align:center;
+        display: block;
+        }
+
+        div.animation {
+         padding:inherit;
+        margin:auto;
+        text-align:center;
+        display: block;
+        }
+
+    </style>
+</%block>
+
+
+<%block name="content">
+<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    <header>
+        ${pheader.html_title()}
+        ${pheader.html_translations(post)}
+    </header>
+    <div class="e-content entry-content" itemprop="articleBody text">
+    ${post.text()}
+    </div>
+    %if site_has_comments and enable_comments and not post.meta('nocomments'):
+        <section class="comments">
+        <h2>${messages("Comments")}</h2>
+        ${comments.comment_form(post.permalink(absolute=True), post.title(), post.base_path)}
+        </section>
+    %endif
+    ${helper.mathjax_script(post)}
+</article>
+</%block>
