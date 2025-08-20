@@ -40,7 +40,16 @@ systems are introduced.
     :sort: priority
 
 
-03 Binaural with SC-HOA
+
+03 Ambisonics & Binaural with the IEM Plugins
+=============================================
+
+  .. post-list::
+     :categories: spatial_audio:iem-reaper
+     :sort: priority
+
+
+04 Binaural with SC-HOA
 =======================
 
   .. post-list::
@@ -48,12 +57,7 @@ systems are introduced.
      :sort: priority
 
 
-04 Ambisonics & Binaural with the IEM Plugins
-=============================================
 
-  .. post-list::
-     :categories: spatial_audio:iem-reaper
-     :sort: priority
 
 
 05 Spatial Sound Synthesis

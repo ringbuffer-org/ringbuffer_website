@@ -18,6 +18,11 @@ The different topics are organized in independent repositories:
 The static website is built with `Nikola <https://getnikola.com/>`_, using the bootblog4 theme.
 All repositories need to be located in the same directory.
 
+
+change the ROOT_PATH =
+
+"/media/anwaldt/ANWALDT_DATA/TEACHING/Online/"
+
 ## Install Nikola
 
 *Install via pip on Ubuntu 24.4*
@@ -36,6 +41,7 @@ File ownership might need to be changed.
 
     $ nikola plugin -i publication_list
 
+    $ pip install Jinja2
 
 ## Install Jupyter
 

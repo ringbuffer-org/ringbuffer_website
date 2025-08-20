@@ -64,3 +64,11 @@ Digital Filters
       :categories: dsp:filters
       :sort: priority
  
+
+
+Digital Reverb
+==============
+
+   .. post-list::
+      :categories: dsp:reverb
+      :sort: priority

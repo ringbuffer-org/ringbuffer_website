@@ -40,6 +40,29 @@ Additive Synthesis & Spectral Modeling
      :categories: _sound_synthesis:spectral
      :sort: priority
 
+
+
+Sampling & Processed Recording
+------------------------------
+
+  .. post-list::
+     :categories: _sound_synthesis:sampling
+     :sort: priority
+
+  .. post-list::
+     :categories: _sound_synthesis:wavetable
+     :sort: priority
+     
+  .. post-list::
+     :categories: _sound_synthesis:granular
+     :sort: priority
+
+  .. post-list::
+     :categories: _sound_synthesis:concatenative
+     :sort: priority
+
+
+
 Modulation
 ----------
 
@@ -68,6 +91,22 @@ Modulation
      :sort: priority
 
 
+Physical Modeling
+-----------------
+
+  .. post-list::
+     :categories: _sound_synthesis:physical
+     :sort: priority
+
+
+
+Distortion Synthesis
+--------------------
+
+ .. post-list::
+    :categories: _sound_synthesis:distortion
+    :sort: priority
+
 
 Subtractive Synthesis
 ---------------------
@@ -83,39 +122,8 @@ Subtractive Synthesis
     :sort: priority
 
 
-Distortion
-----------
-
- .. post-list::
-    :categories: _sound_synthesis:distortion
-    :sort: priority
 
 
 
-Sampling & Processed Recording
-------------------------------
 
-  .. post-list::
-     :categories: _sound_synthesis:sampling
-     :sort: date
 
-  .. post-list::
-     :categories: _sound_synthesis:granular
-     :sort: date
-
-  .. post-list::
-     :categories: _sound_synthesis:concatenative
-     :sort: date
-
-  *Practical*
-
-  .. post-list::
-    :categories: _sound_synthesis:sampling-practical
-    :sort: priority
-
-Physical Modeling
------------------
-
-  .. post-list::
-     :categories: _sound_synthesis:physical
-     :sort: priority
